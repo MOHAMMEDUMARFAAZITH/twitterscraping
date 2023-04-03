@@ -45,7 +45,7 @@ if st.button("upload dataframe into mongodb database"):
    st.success("upload data into mongodb database Successfully")   
    df["date"] = pd.to_datetime(df['date']).dt.date
    df["date"] = pd.to_datetime(df['date'])  
-   a = tweets_df.groupby(['username',"date"]).apply(lambda x: x.to_dict(orient='records')).rename('scraped_data').reset_index().to_dict('records')
+   a = df.groupby(['username',"date"]).apply(lambda x: x.to_dict(orient='records')).rename('scraped_data').reset_index().to_dict('records')
    information.insert_many(a)
 
 csv = df.to_csv(index=False).encode('utf-8')
