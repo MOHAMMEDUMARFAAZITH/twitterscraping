@@ -17,7 +17,7 @@ st.subheader("SCRAPE THE TWITTER DATA FROM TWITTER")
 
 #st.selectbox displays a select widget
 option = st.selectbox('WHAT WOULD YOU LIKE TO SEARCH?',('KEYWORD', 'HASHTAG'))
-st.write('YOU SELECTED:', option)
+st.write('YOUR SELECTED:', option)
 
 
 #st.text_input displays a single-line text input widget
