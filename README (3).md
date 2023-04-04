@@ -39,7 +39,6 @@ Pandas is a Python library used for working with data sets. It has functions for
     
 PyMongo is MongoDB's official native driver for Python. It's a library that lets you connect to a MongoDB database and query the data stored using the MongoDB Query API. It is the recommended way to interface with the document database.
 
-
 # Procedure:
 In GUI using Streamlit
 
