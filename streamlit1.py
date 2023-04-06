@@ -6,7 +6,7 @@ import pandas as pd
 import pymongo
 from PIL import Image
 import graphviz
-
+import snscrape
 image = Image.open(r"C:\Users\RAZITH\Pictures\pic4.PNG")
 st.image(image)
 
