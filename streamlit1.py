@@ -4,11 +4,11 @@ import datetime
 import snscrape.modules.twitter as sntwitter
 import pandas as pd
 import pymongo
-# from PIL import Image
+from PIL import Image
 import graphviz
 import snscrape
-# image = Image.open(r"C:\Users\RAZITH\Pictures\pic4.PNG")
-# st.image(image)
+image = Image.open(r"C:\Users\RAZITH\Pictures\pic4.PNG")
+st.image(image)
 
 #st.header displays text in header formatting
 st.header('TWITTER SCRAPING')
@@ -67,8 +67,7 @@ with col1:
 # using MongoClient to connect (mongodb+python)
 
 
-client = pymongo.MongoClient("mongodb+srv://umarfaazith:<razith10113a>@mydb.dr8c1nx.mongodb.net/?retryWrites=true&w=majority")
-# client = pymongo.MongoClient("mongodb://127.0.0.1:27017/")
+client = pymongo.MongoClient("mongodb://127.0.0.1:27017/")
 mydb = client["twitter_database"]
 information = mydb.twitter_data
 
