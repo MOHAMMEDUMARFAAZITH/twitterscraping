@@ -84,3 +84,6 @@ I'm a Data Science student...
 ## Author
 
 https://github.com/MOHAMMEDUMARFAAZITH
+
+##Demo video
+https://www.linkedin.com/feed/update/urn:li:activity:7049761855459758080/
