@@ -4,11 +4,11 @@ import datetime
 import snscrape.modules.twitter as sntwitter
 import pandas as pd
 import pymongo
-from PIL import Image
+# from PIL import Image
 import graphviz
 import snscrape
-image = Image.open(r"C:\Users\RAZITH\Pictures\pic4.PNG")
-st.image(image)
+# image = Image.open(r"C:\Users\RAZITH\Pictures\pic4.PNG")
+# st.image(image)
 
 #st.header displays text in header formatting
 st.header('TWITTER SCRAPING')
