@@ -67,7 +67,7 @@ with col1:
 # using MongoClient to connect (mongodb+python)
 
 
-client = pymongo.MongoClient("mongodb://127.0.0.1:27017/")
+client = pymongo.MongoClient("mongodb+srv://root:12345@cluster0.8pzyd4r.mongodb.net/test")
 mydb = client["twitter_database"]
 information = mydb.twitter_data
 
