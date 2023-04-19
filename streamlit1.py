@@ -68,8 +68,8 @@ with col1:
 # using MongoClient to connect (mongodb+python)
 
 
-# client = pymongo.MongoClient("mongodb+srv://root:12345@cluster0.8pzyd4r.mongodb.net/test")
-client = pymongo.MongoClient("mongodb://localhost:27017")
+client = pymongo.MongoClient("mongodb+srv://root:12345@cluster0.8pzyd4r.mongodb.net/test")
+# client = pymongo.MongoClient("mongodb://localhost:27017")
 mydb = client["twitter_database"]
 information = mydb.twitter_data
 
