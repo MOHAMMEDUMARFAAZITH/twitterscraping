@@ -8,7 +8,7 @@ from PIL import Image
 import graphviz
 import snscrape
 # image = Image.open(r"C:\Users\RAZITH\Pictures\pic4.PNG")
-image = Image.open("https://github.com/MOHAMMEDUMARFAAZITH/twitterscraping/blob/main/pic4.PNG")
+image = Image.open("pic4.PNG")
 st.image(image)
 
 #st.header displays text in header formatting
